@@ -1,1 +1,1 @@
-git ls-files --exclude-standard --ignored|sed 's/^\.\///' | cat -e
+git ls-files --others --ignored --exclude-standard
