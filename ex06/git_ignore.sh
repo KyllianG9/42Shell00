@@ -1,1 +1,1 @@
-git rm --cached test.log
+git ls-files --exclude-standard --ignored|sed 's/^\.\///' | cat -e
